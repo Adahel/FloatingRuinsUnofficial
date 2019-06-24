@@ -19,7 +19,7 @@ import bspkrs.floatingruins.FloatingRuins;
 import bspkrs.util.CommonUtils;
 import bspkrs.util.Const;
 
-@Mod(modid = Reference.MODID, name = Reference.NAME, version = "@MOD_VERSION@", dependencies = "required-after:bspkrsCore@[@BSCORE_VERSION@,)", useMetadata = true,
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = "@MOD_VERSION@", dependencies = "required-after:bspkrscore@[@BSCORE_VERSION@,)", useMetadata = true,
         guiFactory = "bspkrs.floatingruins.fml.gui.ModGuiFactoryHandler", updateJSON = Const.VERSION_URL_BASE + Reference.MODID + Const.VERSION_URL_EXT)
 public class FloatingRuinsMod
 {
